@@ -1,0 +1,16 @@
+.circulo
+{   
+    /* faz o circulo vermelho da bandeira */
+    height: 250px;
+    width: 250px;        
+    border-radius: 50%;
+    background-color: #BC002D;
+    display: inline-block;
+    /* posiciona o circulo vermelho no centro da tela */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
