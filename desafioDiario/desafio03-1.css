@@ -1,0 +1,26 @@
+body 
+{ 
+    background-color: #f1f0ff;
+}
+
+#animacao  
+{
+    background-image: url("desafio03-1_animacao.png");
+    width: 95px;
+    height: 142px;
+    -webkit-animation: animacao 1s steps(5) infinite;
+    animation: animacao 0.5s steps(5) infinite, 
+                    forward 5s linear infinite;
+}
+
+@Keyframes animacao
+{
+    from { background-position: 0px; }
+    to { background-position: -475px; }
+}
+
+@keyframes forward
+{
+    from { transform: translateX(-100px);}
+    to { transform: translateX(1200px);}
+}
