@@ -13,6 +13,11 @@ body
                     forward 5s linear infinite;
 }
 
+@-webkit-keyframes animacao {
+    from { background-position: 0px; }
+    to { background-position: -569px; }
+}
+
 @Keyframes animacao
 {
     from { background-position: 0px; }
