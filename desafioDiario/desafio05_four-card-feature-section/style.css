@@ -1,0 +1,97 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+.attribution 
+{
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a 
+{
+    color: hsl(228, 45%, 44%);
+}
+
+/* ------------------------------------- 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,400,400i,600,600i&display=swap');
+*/
+
+body 
+{
+    font-family: 'Poppins';
+}
+
+div.head
+{
+    align-content: center;
+    margin: auto;
+    padding-top: 60px;
+    width: 500px;
+}
+
+div.box
+{
+    padding: 25px;
+    border-radius: 6px;
+    border: 3px solid white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#builder
+{
+    border-top-color: hsl(0, 78%, 62%);
+    margin: auto;
+}
+
+#supervisor
+{
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+#karma
+{
+    border-top-color: hsl(34, 97%, 64%);
+    margin: auto;
+}
+
+#calculator
+{
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+img
+{
+    position: relative;
+    float: right;
+}
+
+h1, p.content-head
+{
+    text-align: center;
+}
+
+#up
+{
+    font-weight: 200;
+}
+
+#down
+{
+    font-weight: 600;
+}
+
+p.title, p.content
+{
+    text-align: justify;
+}
+
+p
+{
+    font-size: 15px;
+}
+
+p.title
+{
+    font-weight: 400;
+    font-size: 20px;
+}
