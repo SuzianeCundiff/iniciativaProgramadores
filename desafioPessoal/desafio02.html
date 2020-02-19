@@ -1,0 +1,77 @@
+<canvas width = '600' height='400'></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+
+    function desenhaQuadrado(x, y, cor){
+        var pincel = tela.getContext('2d');
+        pincel.fillStyle = cor;
+        pincel.fillRect(x, y, 20, 20);
+        pincel.fillStroke = 'black'; //- por padrão, o stroke já é preto.
+        pincel.strokeRect(x, y, 20, 20);
+    }
+
+    function texto(frase){
+        var pincel = tela.getContext('2d');
+        pincel.font = '18px serif';
+        pincel.fillText(frase, 20, 15);
+    }
+
+    function sorteiaFracao(){
+        var fracao = [];
+        var numerador = 0;
+        var denominador = Math.floor(Math.random() * 10) + 1;
+        
+        while(numerador < 1 || numerador > denominador){
+            numerador = Math.floor(Math.random() * 10) + 1;
+        }
+
+        fracao.push(numerador);
+        fracao.push(denominador);
+
+        return fracao;
+    }
+
+    function desenhaFracao(){
+        if(numerador == denominador){
+
+            var x = 0;
+
+            for(var i = 0; i < numerador; i++){
+                desenhaQuadrado(x, 30, 'green');
+                x = x + 20;
+            }
+        }else{
+            var x = 0;
+            
+            for(var i = 0; i < numerador; i++){
+                desenhaQuadrado(x, 30, 'green');
+                x = x + 20;
+            }
+
+            var x = (numerador*20);
+
+            for(var j = 0; j < (denominador-numerador); j++){
+                desenhaQuadrado(x, 30, 'white');
+                x = x + 20;
+            }
+        }
+    }
+    
+    
+
+    var fracao = sorteiaFracao();
+
+    var numerador = fracao[0];
+    var denominador = fracao[1];
+
+    //console.log(fracao);
+    //console.log(numerador);
+    //console.log(denominador);
+
+    texto('Qual é a fração?');
+    desenhaFracao();
+
+
+</script>
