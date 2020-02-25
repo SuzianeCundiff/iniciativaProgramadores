@@ -16,15 +16,15 @@ Você é desafiado a bater a cabeça diariamente, seja sozinho, por meio dos **D
 
 <!-- ***Desafios feitos na primeira tentativa da iniciativa vingadores***
 
-1.0. Recria o estilo da página inicial do Google. *(03/02/2020)*
+01. Recria o estilo da página inicial do Google. *(03/02/2020)*
 
-2.0. Fazer a bandeira do japão, de modo responsivo. *(04/02/2020)*
+02. Fazer a bandeira do japão, de modo responsivo. *(04/02/2020)*
 
-3.0. Criar uma animação qualquer com CSS. *(06/02/2020)*
+03. Criar uma animação qualquer com CSS. *(06/02/2020)*
 
-4.0. Fazer uma lista de itens e magias. *(07/02/2020)*
+04. Fazer uma lista de itens e magias. *(07/02/2020)*
 
-5.0. Desafio Four Card (www.frontendmentor.io). *(15/02/2020)*
+05. Desafio Four Card (www.frontendmentor.io). *(15/02/2020)*
 -->
 
 ## **Desafio Semanal**
