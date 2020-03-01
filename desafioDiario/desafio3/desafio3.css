@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap'); /* 400 == regular, 700 == bold*/
+
+*{ /* Basic reset properties */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+li, a, h1, p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #293033;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10%; /* 30px top and bottom | 10% each side */
+}
+
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+.nav-links, .clients-links{
+    list-style: none;
+}
+
+.nav-links li, .clients-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #fbd208;
+}
+
+/* "Botões" de login do header */
+
+#login{
+    background-color: #f4e8a1;
+    color: #293033;
+}
+
+#register{
+    background-color: #fbd208;
+    color: #293033;
+}
+
+.btn{
+    height: 30;
+    margin: 0 6px;
+    padding: 6px 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.btn:hover{
+    filter: brightness(150%);
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+}
+
+.img-zapdos{
+    float: right;
+    height: 500px;
+    width: 500px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    font-weight: 700px;
+    font-size: 45px;
+    color: #293033;
+}
+
+p{
+    color: #8a8c8d;
+    font-weight: bold;
+}
+
+#getStarted{
+    background-color: #fbd208;
+    color: #293033;
+    margin-left: 0;
+}
+
+#play{
+    background-color: #fbd208;
+}
+
+
+.btn svg{
+    height: 30px;
+}
+
+#play_logo .triangle{
+    fill: #fbd208;
+}
+
+#play_logo .circle{
+    fill: #293033;
+}
+
+footer{
+    display: flex;
+    background-color: #293033;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%; /* 30px top and bottom | 10% each side */
+}
+
+footer .clients{
+    display: flex;
+    background-color: orange;
+}
