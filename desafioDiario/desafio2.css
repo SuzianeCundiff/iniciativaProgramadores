@@ -1,0 +1,56 @@
+/*
+    track == it's a entire column/row of a grid. 
+    cell == each block of a grid.
+    area == consists of a multiple grid cells. Always has to be either a square or a rectangle.
+*/
+
+*{ /*basic reset properties*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    width: 620px;
+    height: 632px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;  /* fr == fractional unit */
+    grid-template-rows: 3fr 3fr 1fr 1fr;
+    background-color: #1E2127;
+    gap: 15px 15px;
+}
+
+/*
+.grid-container > div { /* seleciona todos os elementos <div> onde o pai é a classe .grid-continer. 
+    background-color: #eeeeed;
+}
+*/
+
+.grid-item{
+    overflow: hidden;
+    background-color: #eeeeed;
+}
+
+.item3{
+    grid-column: 2 / span 2; /*The grid column starts in line 2 and end 2 lines after*/
+    grid-row: 1 / span 2; /*The grid row starts in line 1 and end 2 lines after*/
+}
+
+.item4{
+    grid-column: 1;
+    grid-row: 3 / span 2;
+}
+
+.item5{
+    grid-column: 2;
+    grid-row: 3 / span 2;
+}
+
+.grid-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
