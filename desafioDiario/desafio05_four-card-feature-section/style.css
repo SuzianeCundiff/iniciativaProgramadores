@@ -1,4 +1,4 @@
-/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+/*Feel free to remove these styles or customise in your own stylesheet 👍 */
 
 .attribution 
 {
@@ -10,53 +10,79 @@
     color: hsl(228, 45%, 44%);
 }
 
-/* ------------------------------------- 
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,400,400i,600,600i&display=swap');
-*/
+/* My Script */
 
-body 
-{
+*{
     font-family: 'Poppins';
 }
 
-div.head
+body 
+{
+    background-color: #fafafa;
+}
+
+.head
 {
     align-content: center;
+    align-items: center;
     margin: auto;
     padding-top: 60px;
+    padding-bottom: 40px;
     width: 500px;
 }
 
-div.box
+.container{
+    margin: auto;
+    display: grid;
+    width: 1200px;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box
 {
     padding: 25px;
+    background-color: #fff;
     border-radius: 6px;
-    border: 3px solid white;
+    border: 3px solid transparent;
+    /*
     width: 300px;
     height: 200px;
+    */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    justify-self: stretch;
+}
+
+#supervisor
+{ 
+    border-top-color: hsl(180, 62%, 55%);
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 2;
 }
 
 #builder
 {
     border-top-color: hsl(0, 78%, 62%);
-    margin: auto;
-}
-
-#supervisor
-{
-    border-top-color: hsl(180, 62%, 55%);
+    grid-column: 2/ span 1;
+    grid-row: 1 / span 2;
 }
 
 #karma
 {
     border-top-color: hsl(34, 97%, 64%);
-    margin: auto;
+    grid-column: 2/ span 1;
+    grid-row: 3 / span 2;
 }
 
 #calculator
 {
     border-top-color: hsl(212, 86%, 64%);
+    grid-column: 3/ span 1;
+    grid-row: 2/ span 2;
 }
 
 img
@@ -73,6 +99,7 @@ h1, p.content-head
 #up
 {
     font-weight: 200;
+    color: #7b7a80
 }
 
 #down
@@ -92,6 +119,20 @@ p
 
 p.title
 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
 }
+
+footer{
+    margin-top: 40px;
+}
+
+.content-head, .container{
+    color: #bababc;
+}
+
+#down, .title{
+    color: #56576C;
+}
+
+
