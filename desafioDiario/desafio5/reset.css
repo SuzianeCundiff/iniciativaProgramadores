@@ -1,0 +1,42 @@
+/* 
+
+Essa redefinição oferece mais flexibilidade, pois permite que você use contente-box ou padding-box (quando suportado) à vontade, sem se preocupar com um seletor universal substituindo sua congiguração CSS.
+
+Uma possível queixa é que o tamanho da caixa normalmente não é herdado (inherit), ou seja, isso é um comportamento especializado, não é exatamente o que você normalmente colocaria em uma redefinição.
+
+(https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
+
+*/
+
+/* Atribuições
+
+Logo - Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body{
+    font-family: 'Cantata One', serif;
+    font-size: 13px;
+    font-weight: 400;
+}
