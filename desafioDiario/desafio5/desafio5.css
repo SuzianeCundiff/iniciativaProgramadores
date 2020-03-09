@@ -45,3 +45,30 @@ section.home{
     background-color: #CBE6F7;
 }
 
+div.section-home{
+    max-width: 550px;
+    background-color: lawngreen;
+}    
+
+div.email-submit{
+    background-color: limegreen;
+    position: relative;
+}
+
+input{
+    height: 25px;
+    width: 100%;
+    padding: 25px 15px;
+}
+
+button{
+    position:absolute;
+    text-align:center;
+    right: 30px;
+    padding: 12px 25px;
+    border:none;
+    outline:none;
+    
+        
+}
+
