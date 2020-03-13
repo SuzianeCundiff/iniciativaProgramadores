@@ -1,6 +1,6 @@
 /* Header */
 
-header{
+body{
     background-color: #CBE6F7;
 }
 
@@ -8,10 +8,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 8px 15px;
-    background-color: indigo;
+    background-color: #CBE6F7;
 }
 
 .logo{
@@ -30,7 +30,7 @@ li{
 }
 
 li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 0 20px;
 }
@@ -41,34 +41,126 @@ li a:hover{
 
 /* Section Home */
 
-section.home{
-    background-color: #CBE6F7;
+.home{
+    background-color: #CBE6F7; /*indigo*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-div.section-home{
-    max-width: 550px;
-    background-color: lawngreen;
-}    
+.section-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 720px;
+    /*background-color: lawngreen;*/
+}
 
-div.email-submit{
+h1{
+    color: #008CBA;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+span{
+    color: #36c9fa;
+}
+.email-submit{
     background-color: limegreen;
-    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 input{
-    height: 25px;
+    height: 45px;
     width: 100%;
     padding: 25px 15px;
+    border: 12px solid white;
+
 }
 
 button{
-    position:absolute;
-    text-align:center;
-    right: 30px;
-    padding: 12px 25px;
-    border:none;
-    outline:none;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    border: 12px solid white;
+    background-color: lightblue;
     
-        
 }
 
+.img-home{
+    /*background-color: greenyellow;*/
+    display: block;
+    padding: 100px;
+    width: 720px;
+    height: 100%;
+}
+
+/* Section How it Works */
+
+.how-it-works{
+    background-color: #CBE6F7; /*indigo*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.title{
+    width: 800px;
+    height: auto;
+
+}
+
+h2{
+    color: #595a5a;
+    font-size: 45px;
+    text-align: center;
+}
+
+.functionalities{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c495c;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.resourcing{
+    border: 2px solid #f78b9d;
+    background-color: #ffeaee;
+}
+
+.sales-marketing{
+    border: 2px solid #62ce86;
+    background-color: #dcfde7;
+}
+
+.multi-channel{
+    border: 2px solid #cec362;
+    background-color: #f8f4ca;
+}
+
+.func-logo{
+    width: 60px;
+    height: 60px;
+    margin: 50px 50px;
+}
+
+p{
+    text-align: center;
+    margin: 50px 50px;
+}
