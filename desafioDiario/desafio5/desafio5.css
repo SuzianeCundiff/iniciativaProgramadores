@@ -1,17 +1,17 @@
 /* Header */
 
 body{
-    background-color: #CBE6F7;
+    background-color: #E3F8F7;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 8px 15px;
-    background-color: #CBE6F7;
+    background-color: #E3F8F7;
 }
 
 .logo{
@@ -39,33 +39,39 @@ li a:hover{
     color: rgb(132, 242, 252);
 }
 
+/****************/
+
+section{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8px 15px;
+}
+
 /* Section Home */
 
 .home{
-    background-color: #CBE6F7; /*indigo*/
-    display: flex;
+    background-color: #E3F8F7; /*indigo*/
     flex-direction: row;
     justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
-.section-home{
+.email{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 720px;
+    max-width: 500px;
     /*background-color: lawngreen;*/
 }
 
 h1{
-    color: #008CBA;
-    font-size: 70px;
+    color: #0A3D3F;
+    font-size: 45px;
     margin-bottom: 60px;
 }
 
 span{
-    color: #36c9fa;
+    color: #36C5BA;
 }
 .email-submit{
     background-color: limegreen;
@@ -78,48 +84,42 @@ input{
     width: 100%;
     padding: 25px 15px;
     border: 12px solid white;
-
 }
 
-button{
+#btn-submit{
     height: 25px;
     width: 100%;
     text-align: center;
     padding: 25px 0;
     border: 12px solid white;
-    background-color: lightblue;
-    
+    background-color: #36C5BA;
 }
 
 .img-home{
     /*background-color: greenyellow;*/
     display: block;
     padding: 100px;
-    width: 720px;
+    width: 500px;
     height: 100%;
 }
 
 /* Section How it Works */
 
 .how-it-works{
-    background-color: #CBE6F7; /*indigo*/
-    display: flex;
+    background-color: #F7FBFB; /*indigo*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 150px 0;
+    /*padding: 150px 0;*/
 }
 
 .title{
     width: 800px;
     height: auto;
-
 }
 
 h2{
-    color: #595a5a;
+    color: #3E4050;
     font-size: 45px;
     text-align: center;
 }
@@ -140,18 +140,18 @@ h2{
 }
 
 .resourcing{
-    border: 2px solid #f78b9d;
-    background-color: #ffeaee;
+    border: 2px solid #E694AF;
+    background-color: #FFF8FA;
 }
 
 .sales-marketing{
-    border: 2px solid #62ce86;
-    background-color: #dcfde7;
+    border: 2px solid #6AD5CD;
+    background-color: #EEFFFE;
 }
 
 .multi-channel{
-    border: 2px solid #cec362;
-    background-color: #f8f4ca;
+    border: 2px solid #F4E399;
+    background-color: #FFFCEE;
 }
 
 .func-logo{
@@ -163,4 +163,32 @@ h2{
 p{
     text-align: center;
     margin: 50px 50px;
+}
+
+.btn.section-2{
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+    height: 25px;
+    font-size: 16px;
+}
+
+#btn-try-it{
+    height: 25px;
+    width: fit-content;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#btn-seta{
+    height: 25px;
+    width: fit-content;
+    padding: 25px;
+    background-color: #36C5BA;
+    border: 1px solid #3CC7BC;
+    background-image: url("seta-direita.svg");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
 }
